@@ -12,14 +12,15 @@ are independent of the computational experiments.
 
 - `discrete_isothermic.jl`  
   Planar discrete conformal maps built by cr = -1 evolution starting from initial data prescribed on boundary vertices.
-  Discrete I-minimal surface constructed via I-minimal Weierstrass representation applied to discrete conformal map.
+  Discrete I-minimal surfaces constructed via I-minimal Weierstrass representation applied to discrete conformal map.
 
 - `discrete_s_isothermic.jl`  
   Planar Schramm circle pattern built by iteratively constructing tangent / orthogonal circle from initial data prescribed on the main diagonal.
-  Discrete S-minimal surface visualized by spheres / circles constructed via S-minimal Weierstrass representation applied to Schramm circle pattern.
+  Discrete S-minimal surfaces visualized by spheres / circles constructed via S-minimal Weierstrass representation applied to Schramm circle pattern.
 
 - `planar_variation.jl`  
-  Interactive script visualizing behavior of planar discrete conformal map with half the vertices fixed.
+  Interactive script visualizing behavior of planar discrete conformal map with half the vertices fixed
+  (and corresponding spherical dual / I-minimal surface).
 
 Each script is self-contained and can be executed independently.
 
